@@ -17,7 +17,23 @@ li{
     display: inline-block;
     margin: 20px;
     position: relative;
-    font-size: 25px;
+    font-size: 22px;
     color: #f7ca61;
-    
+
+}
+
+label {
+    display: block; font-size: smaller; text-align: left; margin-left: 5px; margin-bottom: 0; margin-top: 8px;
+}
+input {
+border: 1px solid #CB9008; background-color:#231806 ; border-color:#CB9008; width: 450px; height: 33px; color: #CB9008; border-radius: 4px; display: block;
+}
+textarea {
+    border: 1px solid #CB9008; background-color:#231806 ; border-color:#CB9008; width: 450px; height: 33px; color: #CB9008; border-radius: 4px; display: block;
+}
+input:focus {
+    outline: none;
+}
+textarea:focus {
+    outline: none;
 }
