@@ -21,6 +21,7 @@ li{
     color: #f7ca61;
 
 }
+
 li>a {
     color: #f7ca61;
 }
@@ -52,4 +53,44 @@ a {
 }
 .fa.fa-instagram:hover {
     color: rgb(204, 24, 84);
+}
+#head {
+    color: #CB9008!important; margin-top: 0px; font-family: 'Indie Flower'; font-weight: 1000; font-size: 45px; letter-spacing: 0.5ch;
+}
+#media {
+    font-size: 24px;
+}
+
+@media only screen and (max-width:1366px) {
+    body {
+        zoom: 55%; 
+        height: 270%!important;
+    }
+    #head {
+        font-size: 55px!important;
+    }
+    #nav {
+        margin-left: -16px!important;
+    }
+    nav {
+        height: 70px!important;
+    }
+    li {
+        font-size: 28px!important;
+    }
+    #media {
+        font-size: 200%!important;
+    }
+    form>label {
+        font-size: 200%!important;
+    }
+    form>input ,form>textarea {
+        width: 600px !important;
+        height: 49.5px!important;
+    }
+    #ulaşın {
+        margin-bottom: 60px!important;
+        margin-top: 210px!important;
+        font-size: 200%!important;
+    }
 }

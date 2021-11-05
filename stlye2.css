@@ -58,7 +58,57 @@ h1 {
     padding-bottom: 7px;
 }
 p1 {
-    
     color: #f7ca61;
     font-size: 22px;
+}
+#head {
+    color: #CB9008!important; margin-top: 0px; font-family: 'Indie Flower'; font-weight: 1000; font-size: 45px; letter-spacing: 0.5ch;
+}
+#media>a {
+    font-size: 24px;
+}
+
+@media only screen and (max-width:1366px) {
+    body {
+        zoom: 55%; 
+    }
+    #head {
+        font-size: 55px!important;
+    }
+    #nav {
+        margin-left: -16px!important;
+    }
+    section>div {
+        line-height: 45px!important;
+    }
+    #bir {
+        height: 60%!important;
+        font-size: 30px!important;
+    }
+    #iki {
+        height: 35%!important;
+    }
+    #gelecek {
+        font-size: 30px!important;
+    }
+    #üç {
+        height: 45%!important;
+        font-size: 30px!important;
+    }
+    nav {
+        height: 70px!important;
+    }
+    li {
+        font-size: 28px!important;
+    }
+    section>div>p1 {
+        font-size: 28px!important;
+    }
+    section>div>h1 {
+        font-size: 3rem!important;
+    }
+    #media>a {
+        font-size: 200%!important;
+        padding-right: 10px!important;
+    }
 }
